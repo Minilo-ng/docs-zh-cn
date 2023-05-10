@@ -154,6 +154,13 @@ export default {
 <footer>...</footer>
 ```
 
+根结点如果添加了注释节点，也会被认为是多根节点，例如：
+ 
+```vue-jtml
+<!-- comments here -->
+<div>...</div>
+```
+  
 ## 在 JavaScript 中访问透传 Attributes {#accessing-fallthrough-attributes-in-javascript}
 
 <div class="composition-api">
